@@ -1,0 +1,3 @@
+# total:1
+/home/gilles/shared/converters/live_chain_VALIDATED_INPUT/toto (5th copy)/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+# end of file

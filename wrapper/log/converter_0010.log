@@ -1,0 +1,486 @@
+2021-10-04 17:10:00,245 - [INFO] :  ==> OUTSPACE overwritten by passed parameter:/home/gilles/shared/workspace/out
+2021-10-04 17:10:00,247 - [INFO] :  ==> TMPSPACE overwritten by passed parameter:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:10:00,248 - [INFO] :  ==> will NOT run in daemon mode:False
+2021-10-04 17:10:00,249 - [INFO] :  ==> will use single product
+2021-10-04 17:10:00,249 - [INFO] :  test TMPSPACE folder exists:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:10:00,251 - [INFO] :   will make TMPSPACE folder:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:10:00,300 - [INFO] :  test OUTSPACE folder exists:/home/gilles/shared/workspace/out
+2021-10-04 17:10:00,301 - [INFO] :  test DONESPACE folder exists:TBD
+2021-10-04 17:10:00,302 - [INFO] :   will make DONESPACE folder:TBD
+2021-10-04 17:10:00,304 - [DEBUG] : metadata fixed[0]:METADATA_SIP_CHANGE_LOG=First Edition
+2021-10-04 17:10:00,305 - [DEBUG] : metadata fixed[1]:METADATA_SIP_SPEC_NAME_VERSION=EO SIP Specialization for Landsat 8 Collection 2 Products v2.0
+2021-10-04 17:10:00,306 - [DEBUG] : metadata fixed[2]:METADATA_SIP_SOFTWARE_NAME=eoProdGen
+2021-10-04 17:10:00,307 - [DEBUG] : metadata fixed[3]:METADATA_SIP_SOFTWARE_VERSION=0101
+2021-10-04 17:10:00,307 - [DEBUG] : metadata fixed[4]:METADATA_NATIVE_PRODUCT_VERSION=00
+2021-10-04 17:10:00,308 - [DEBUG] : metadata fixed[5]:METADATA_PLATFORM_2DIGITS_ALIAS=L0
+2021-10-04 17:10:00,309 - [DEBUG] : metadata fixed[6]:METADATA_FILECOUNTER=1
+2021-10-04 17:10:00,310 - [DEBUG] : metadata fixed[7]:METADATA_ORBIT=0
+2021-10-04 17:10:00,311 - [DEBUG] : metadata fixed[8]:METADATA_ORBIT_DIRECTION=DESCENDING
+2021-10-04 17:10:00,312 - [DEBUG] : metadata fixed[9]:METADATA_SENSOR_OPERATIONAL_MODE=DEFAULT
+2021-10-04 17:10:00,313 - [DEBUG] : metadata fixed[10]:METADATA_REPORT_TYPE=ARCHIVING
+2021-10-04 17:10:00,315 - [DEBUG] : metadata fixed[11]:METADATA_RESPONSIBLE=ESA
+2021-10-04 17:10:00,315 - [DEBUG] : metadata fixed[12]:METADATA_CREATOR=ESA
+2021-10-04 17:10:00,316 - [DEBUG] : metadata fixed[13]:METADATA_BROWSES_TYPE=QUICKLOOK
+2021-10-04 17:10:00,317 - [DEBUG] : metadata fixed[14]:METADATA_FILECLASS=OPER
+2021-10-04 17:10:00,327 - [DEBUG] : metadata fixed[15]:METADATA_SIP_VERSION=0101
+2021-10-04 17:10:00,334 - [DEBUG] : metadata fixed[16]:METADATA_PRODUCT_VERSION=0001
+2021-10-04 17:10:00,335 - [DEBUG] : metadata fixed[17]:METADATA_PLATFORM=Landsat
+2021-10-04 17:10:00,335 - [DEBUG] : metadata fixed[18]:METADATA_STATUS=ARCHIVED
+2021-10-04 17:10:00,336 - [DEBUG] : metadata fixed[19]:METADATA_ACQUISITION_TYPE=NOMINAL
+2021-10-04 17:10:00,337 - [DEBUG] : metadata fixed[20]:METADATA_SENSOR_TYPE=OPTICAL
+2021-10-04 17:10:00,337 - [DEBUG] : metadata fixed[21]:METADATA_INSTRUMENT=OAT
+2021-10-04 17:10:00,338 - [DEBUG] : metadata fixed[22]:METADATA_CODESPACE_REFERENCE_SYSTEM=urn:esa:eop:crs
+2021-10-04 17:10:00,338 - [DEBUG] : metadata fixed[23]:METADATA_REFERENCE_SYSTEM_IDENTIFIER=EPSG:4326
+2021-10-04 17:10:00,339 - [DEBUG] : metadata fixed[24]:METADATA_CODESPACE_ACQUISITION_STATION=urn:esa:eop:facility
+2021-10-04 17:10:00,339 - [DEBUG] : metadata fixed[25]:METADATA_CODESPACE_WRS_LONGITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:path
+2021-10-04 17:10:00,340 - [DEBUG] : metadata fixed[26]:METADATA_CODESPACE_WRS_LATITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:row
+2021-10-04 17:10:00,340 - [DEBUG] : metadata fixed[27]:METADATA_CODESPACE_SENSOR_OPERATIONAL_MODE=urn:esa:eop:Landsat:OAT:operationalMode
+2021-10-04 17:10:00,341 - [DEBUG] : metadata fixed[28]:METADATA_PRODUCT_SIZE_UOM=bytes
+2021-10-04 17:10:00,341 - [DEBUG] : metadata fixed[29]:METADATA_KMZ_USE_BOOUNDINGBOX=False
+2021-10-04 17:10:00,341 - [DEBUG] : metadata fixed[30]:METADATA_QUALITY_STATUS=NOMINAL
+2021-10-04 17:10:00,342 - [INFO] :  ==> don't run in multiprocessing mode
+2021-10-04 17:10:00,343 - [INFO] :   => use one single product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:00,346 - [INFO] : 
+
+list of products to be done written in:./log/product_list_0010.txt
+
+
+2021-10-04 17:10:00,347 - [INFO] : 
+2021-10-04 17:10:00,348 - [INFO] : 
+2021-10-04 17:10:00,349 - [INFO] : 
+2021-10-04 17:10:00,350 - [INFO] : 
+2021-10-04 17:10:00,351 - [INFO] : doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:00,351 - [INFO] : [PROGRESS] Doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:00,366 - [INFO] : doing product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:00,371 - [INFO] :   will make working folder:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0
+2021-10-04 17:10:00,384 - [ERROR] : done=0; total=1; error=1 ; endTime=not%20computed
+2021-10-04 17:10:00,386 - [ERROR] : Error:<class 'Exception'>  L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+Traceback (most recent call last):
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2041, in processProducts
+    self.doOneProduct(aProcessInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2398, in doOneProduct
+    self.createSourceProduct(pInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/ingester_landsat8.py", line 218, in createSourceProduct
+    product = product_landsat8.Product_Landsat8(processInfo.srcPath)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/product_landsat8.py", line 186, in __init__
+    raise Exception("L1 product compagnion .zip file does not exists:'%s'" % self.compagnionFilePath)
+Exception: L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+
+
+2021-10-04 17:10:00,415 - [INFO] : dont delete working folder '/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0': processOk=False; self.erase_tmp_work=False
+2021-10-04 17:10:00,416 - [INFO] : max number of product to be done reached:1; STOPPING
+2021-10-04 17:10:47,433 - [INFO] :  ==> OUTSPACE overwritten by passed parameter:/home/gilles/shared/workspace/out
+2021-10-04 17:10:47,434 - [INFO] :  ==> TMPSPACE overwritten by passed parameter:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:10:47,435 - [INFO] :  ==> will NOT run in daemon mode:False
+2021-10-04 17:10:47,441 - [INFO] :  ==> will use single product
+2021-10-04 17:10:47,447 - [INFO] :  test TMPSPACE folder exists:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:10:47,453 - [INFO] :  test OUTSPACE folder exists:/home/gilles/shared/workspace/out
+2021-10-04 17:10:47,455 - [DEBUG] : metadata fixed[0]:METADATA_SIP_CHANGE_LOG=First Edition
+2021-10-04 17:10:47,456 - [DEBUG] : metadata fixed[1]:METADATA_SIP_SPEC_NAME_VERSION=EO SIP Specialization for Landsat 8 Collection 2 Products v2.0
+2021-10-04 17:10:47,457 - [DEBUG] : metadata fixed[2]:METADATA_SIP_SOFTWARE_NAME=eoProdGen
+2021-10-04 17:10:47,458 - [DEBUG] : metadata fixed[3]:METADATA_SIP_SOFTWARE_VERSION=0101
+2021-10-04 17:10:47,458 - [DEBUG] : metadata fixed[4]:METADATA_NATIVE_PRODUCT_VERSION=00
+2021-10-04 17:10:47,459 - [DEBUG] : metadata fixed[5]:METADATA_PLATFORM_2DIGITS_ALIAS=L0
+2021-10-04 17:10:47,460 - [DEBUG] : metadata fixed[6]:METADATA_FILECOUNTER=1
+2021-10-04 17:10:47,462 - [DEBUG] : metadata fixed[7]:METADATA_ORBIT=0
+2021-10-04 17:10:47,462 - [DEBUG] : metadata fixed[8]:METADATA_ORBIT_DIRECTION=DESCENDING
+2021-10-04 17:10:47,463 - [DEBUG] : metadata fixed[9]:METADATA_SENSOR_OPERATIONAL_MODE=DEFAULT
+2021-10-04 17:10:47,464 - [DEBUG] : metadata fixed[10]:METADATA_REPORT_TYPE=ARCHIVING
+2021-10-04 17:10:47,465 - [DEBUG] : metadata fixed[11]:METADATA_RESPONSIBLE=ESA
+2021-10-04 17:10:47,466 - [DEBUG] : metadata fixed[12]:METADATA_CREATOR=ESA
+2021-10-04 17:10:47,466 - [DEBUG] : metadata fixed[13]:METADATA_BROWSES_TYPE=QUICKLOOK
+2021-10-04 17:10:47,467 - [DEBUG] : metadata fixed[14]:METADATA_FILECLASS=OPER
+2021-10-04 17:10:47,468 - [DEBUG] : metadata fixed[15]:METADATA_SIP_VERSION=0101
+2021-10-04 17:10:47,469 - [DEBUG] : metadata fixed[16]:METADATA_PRODUCT_VERSION=0001
+2021-10-04 17:10:47,469 - [DEBUG] : metadata fixed[17]:METADATA_PLATFORM=Landsat
+2021-10-04 17:10:47,470 - [DEBUG] : metadata fixed[18]:METADATA_STATUS=ARCHIVED
+2021-10-04 17:10:47,474 - [DEBUG] : metadata fixed[19]:METADATA_ACQUISITION_TYPE=NOMINAL
+2021-10-04 17:10:47,483 - [DEBUG] : metadata fixed[20]:METADATA_SENSOR_TYPE=OPTICAL
+2021-10-04 17:10:47,496 - [DEBUG] : metadata fixed[21]:METADATA_INSTRUMENT=OAT
+2021-10-04 17:10:47,496 - [DEBUG] : metadata fixed[22]:METADATA_CODESPACE_REFERENCE_SYSTEM=urn:esa:eop:crs
+2021-10-04 17:10:47,497 - [DEBUG] : metadata fixed[23]:METADATA_REFERENCE_SYSTEM_IDENTIFIER=EPSG:4326
+2021-10-04 17:10:47,498 - [DEBUG] : metadata fixed[24]:METADATA_CODESPACE_ACQUISITION_STATION=urn:esa:eop:facility
+2021-10-04 17:10:47,499 - [DEBUG] : metadata fixed[25]:METADATA_CODESPACE_WRS_LONGITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:path
+2021-10-04 17:10:47,499 - [DEBUG] : metadata fixed[26]:METADATA_CODESPACE_WRS_LATITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:row
+2021-10-04 17:10:47,500 - [DEBUG] : metadata fixed[27]:METADATA_CODESPACE_SENSOR_OPERATIONAL_MODE=urn:esa:eop:Landsat:OAT:operationalMode
+2021-10-04 17:10:47,501 - [DEBUG] : metadata fixed[28]:METADATA_PRODUCT_SIZE_UOM=bytes
+2021-10-04 17:10:47,502 - [DEBUG] : metadata fixed[29]:METADATA_KMZ_USE_BOOUNDINGBOX=False
+2021-10-04 17:10:47,503 - [DEBUG] : metadata fixed[30]:METADATA_QUALITY_STATUS=NOMINAL
+2021-10-04 17:10:47,504 - [INFO] :  ==> don't run in multiprocessing mode
+2021-10-04 17:10:47,504 - [INFO] :   => use one single product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:47,511 - [INFO] : 
+
+list of products to be done written in:./log/product_list_0010.txt
+
+
+2021-10-04 17:10:47,519 - [INFO] : 
+2021-10-04 17:10:47,520 - [INFO] : 
+2021-10-04 17:10:47,520 - [INFO] : 
+2021-10-04 17:10:47,521 - [INFO] : 
+2021-10-04 17:10:47,521 - [INFO] : doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:47,522 - [INFO] : [PROGRESS] Doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:47,522 - [INFO] : doing product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:10:47,534 - [ERROR] : done=0; total=1; error=1 ; endTime=not%20computed
+2021-10-04 17:10:47,535 - [ERROR] : Error:<class 'Exception'>  L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+Traceback (most recent call last):
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2041, in processProducts
+    self.doOneProduct(aProcessInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2398, in doOneProduct
+    self.createSourceProduct(pInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/ingester_landsat8.py", line 218, in createSourceProduct
+    product = product_landsat8.Product_Landsat8(processInfo.srcPath)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/product_landsat8.py", line 186, in __init__
+    raise Exception("L1 product compagnion .zip file does not exists:'%s'" % self.compagnionFilePath)
+Exception: L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+
+
+2021-10-04 17:10:47,558 - [INFO] : dont delete working folder '/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0': processOk=False; self.erase_tmp_work=False
+2021-10-04 17:10:47,559 - [INFO] : max number of product to be done reached:1; STOPPING
+2021-10-04 17:25:21,040 - [INFO] :  ==> OUTSPACE overwritten by passed parameter:/home/gilles/shared/workspace/out
+2021-10-04 17:25:21,040 - [INFO] :  ==> TMPSPACE overwritten by passed parameter:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:25:21,041 - [INFO] :  ==> will NOT run in daemon mode:False
+2021-10-04 17:25:21,041 - [INFO] :  ==> will use single product
+2021-10-04 17:25:21,042 - [INFO] :  test TMPSPACE folder exists:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:25:21,044 - [INFO] :  test OUTSPACE folder exists:/home/gilles/shared/workspace/out
+2021-10-04 17:25:21,045 - [DEBUG] : metadata fixed[0]:METADATA_SIP_CHANGE_LOG=First Edition
+2021-10-04 17:25:21,046 - [DEBUG] : metadata fixed[1]:METADATA_SIP_SPEC_NAME_VERSION=EO SIP Specialization for Landsat 8 Collection 2 Products v2.0
+2021-10-04 17:25:21,047 - [DEBUG] : metadata fixed[2]:METADATA_SIP_SOFTWARE_NAME=eoProdGen
+2021-10-04 17:25:21,047 - [DEBUG] : metadata fixed[3]:METADATA_SIP_SOFTWARE_VERSION=0101
+2021-10-04 17:25:21,048 - [DEBUG] : metadata fixed[4]:METADATA_NATIVE_PRODUCT_VERSION=00
+2021-10-04 17:25:21,049 - [DEBUG] : metadata fixed[5]:METADATA_PLATFORM_2DIGITS_ALIAS=L0
+2021-10-04 17:25:21,049 - [DEBUG] : metadata fixed[6]:METADATA_FILECOUNTER=1
+2021-10-04 17:25:21,050 - [DEBUG] : metadata fixed[7]:METADATA_ORBIT=0
+2021-10-04 17:25:21,050 - [DEBUG] : metadata fixed[8]:METADATA_ORBIT_DIRECTION=DESCENDING
+2021-10-04 17:25:21,051 - [DEBUG] : metadata fixed[9]:METADATA_SENSOR_OPERATIONAL_MODE=DEFAULT
+2021-10-04 17:25:21,051 - [DEBUG] : metadata fixed[10]:METADATA_REPORT_TYPE=ARCHIVING
+2021-10-04 17:25:21,052 - [DEBUG] : metadata fixed[11]:METADATA_RESPONSIBLE=ESA
+2021-10-04 17:25:21,053 - [DEBUG] : metadata fixed[12]:METADATA_CREATOR=ESA
+2021-10-04 17:25:21,053 - [DEBUG] : metadata fixed[13]:METADATA_BROWSES_TYPE=QUICKLOOK
+2021-10-04 17:25:21,054 - [DEBUG] : metadata fixed[14]:METADATA_FILECLASS=OPER
+2021-10-04 17:25:21,054 - [DEBUG] : metadata fixed[15]:METADATA_SIP_VERSION=0101
+2021-10-04 17:25:21,055 - [DEBUG] : metadata fixed[16]:METADATA_PRODUCT_VERSION=0001
+2021-10-04 17:25:21,055 - [DEBUG] : metadata fixed[17]:METADATA_PLATFORM=Landsat
+2021-10-04 17:25:21,059 - [DEBUG] : metadata fixed[18]:METADATA_STATUS=ARCHIVED
+2021-10-04 17:25:21,064 - [DEBUG] : metadata fixed[19]:METADATA_ACQUISITION_TYPE=NOMINAL
+2021-10-04 17:25:21,068 - [DEBUG] : metadata fixed[20]:METADATA_SENSOR_TYPE=OPTICAL
+2021-10-04 17:25:21,073 - [DEBUG] : metadata fixed[21]:METADATA_INSTRUMENT=OAT
+2021-10-04 17:25:21,076 - [DEBUG] : metadata fixed[22]:METADATA_CODESPACE_REFERENCE_SYSTEM=urn:esa:eop:crs
+2021-10-04 17:25:21,078 - [DEBUG] : metadata fixed[23]:METADATA_REFERENCE_SYSTEM_IDENTIFIER=EPSG:4326
+2021-10-04 17:25:21,079 - [DEBUG] : metadata fixed[24]:METADATA_CODESPACE_ACQUISITION_STATION=urn:esa:eop:facility
+2021-10-04 17:25:21,079 - [DEBUG] : metadata fixed[25]:METADATA_CODESPACE_WRS_LONGITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:path
+2021-10-04 17:25:21,080 - [DEBUG] : metadata fixed[26]:METADATA_CODESPACE_WRS_LATITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:row
+2021-10-04 17:25:21,081 - [DEBUG] : metadata fixed[27]:METADATA_CODESPACE_SENSOR_OPERATIONAL_MODE=urn:esa:eop:Landsat:OAT:operationalMode
+2021-10-04 17:25:21,081 - [DEBUG] : metadata fixed[28]:METADATA_PRODUCT_SIZE_UOM=bytes
+2021-10-04 17:25:21,082 - [DEBUG] : metadata fixed[29]:METADATA_KMZ_USE_BOOUNDINGBOX=False
+2021-10-04 17:25:21,083 - [DEBUG] : metadata fixed[30]:METADATA_QUALITY_STATUS=NOMINAL
+2021-10-04 17:25:21,085 - [INFO] :  ==> don't run in multiprocessing mode
+2021-10-04 17:25:21,086 - [INFO] :   => use one single product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:25:21,090 - [INFO] : 
+
+list of products to be done written in:./log/product_list_0010.txt
+
+
+2021-10-04 17:25:21,091 - [INFO] : 
+2021-10-04 17:25:21,092 - [INFO] : 
+2021-10-04 17:25:21,092 - [INFO] : 
+2021-10-04 17:25:21,093 - [INFO] : 
+2021-10-04 17:25:21,094 - [INFO] : doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:25:21,095 - [INFO] : [PROGRESS] Doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:25:21,095 - [INFO] : doing product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:25:21,124 - [ERROR] : done=0; total=1; error=1 ; endTime=not%20computed
+2021-10-04 17:25:21,126 - [ERROR] : Error:<class 'Exception'>  L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+Traceback (most recent call last):
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2041, in processProducts
+    self.doOneProduct(aProcessInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2398, in doOneProduct
+    self.createSourceProduct(pInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/ingester_landsat8.py", line 218, in createSourceProduct
+    product = product_landsat8.Product_Landsat8(processInfo.srcPath)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/product_landsat8.py", line 186, in __init__
+    raise Exception("L1 product compagnion .zip file does not exists:'%s'" % self.compagnionFilePath)
+Exception: L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+
+
+2021-10-04 17:25:21,154 - [INFO] : dont delete working folder '/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0': processOk=False; self.erase_tmp_work=False
+2021-10-04 17:25:21,155 - [INFO] : max number of product to be done reached:1; STOPPING
+2021-10-04 17:26:42,652 - [INFO] :  ==> OUTSPACE overwritten by passed parameter:/home/gilles/shared/workspace/out
+2021-10-04 17:26:42,653 - [INFO] :  ==> TMPSPACE overwritten by passed parameter:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:26:42,654 - [INFO] :  ==> will NOT run in daemon mode:False
+2021-10-04 17:26:42,654 - [INFO] :  ==> will use single product
+2021-10-04 17:26:42,655 - [INFO] :  test TMPSPACE folder exists:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:26:42,656 - [INFO] :  test OUTSPACE folder exists:/home/gilles/shared/workspace/out
+2021-10-04 17:26:42,657 - [DEBUG] : metadata fixed[0]:METADATA_SIP_CHANGE_LOG=First Edition
+2021-10-04 17:26:42,657 - [DEBUG] : metadata fixed[1]:METADATA_SIP_SPEC_NAME_VERSION=EO SIP Specialization for Landsat 8 Collection 2 Products v2.0
+2021-10-04 17:26:42,658 - [DEBUG] : metadata fixed[2]:METADATA_SIP_SOFTWARE_NAME=eoProdGen
+2021-10-04 17:26:42,658 - [DEBUG] : metadata fixed[3]:METADATA_SIP_SOFTWARE_VERSION=0101
+2021-10-04 17:26:42,659 - [DEBUG] : metadata fixed[4]:METADATA_NATIVE_PRODUCT_VERSION=00
+2021-10-04 17:26:42,660 - [DEBUG] : metadata fixed[5]:METADATA_PLATFORM_2DIGITS_ALIAS=L0
+2021-10-04 17:26:42,660 - [DEBUG] : metadata fixed[6]:METADATA_FILECOUNTER=1
+2021-10-04 17:26:42,661 - [DEBUG] : metadata fixed[7]:METADATA_ORBIT=0
+2021-10-04 17:26:42,662 - [DEBUG] : metadata fixed[8]:METADATA_ORBIT_DIRECTION=DESCENDING
+2021-10-04 17:26:42,662 - [DEBUG] : metadata fixed[9]:METADATA_SENSOR_OPERATIONAL_MODE=DEFAULT
+2021-10-04 17:26:42,663 - [DEBUG] : metadata fixed[10]:METADATA_REPORT_TYPE=ARCHIVING
+2021-10-04 17:26:42,663 - [DEBUG] : metadata fixed[11]:METADATA_RESPONSIBLE=ESA
+2021-10-04 17:26:42,664 - [DEBUG] : metadata fixed[12]:METADATA_CREATOR=ESA
+2021-10-04 17:26:42,664 - [DEBUG] : metadata fixed[13]:METADATA_BROWSES_TYPE=QUICKLOOK
+2021-10-04 17:26:42,665 - [DEBUG] : metadata fixed[14]:METADATA_FILECLASS=OPER
+2021-10-04 17:26:42,666 - [DEBUG] : metadata fixed[15]:METADATA_SIP_VERSION=0101
+2021-10-04 17:26:42,666 - [DEBUG] : metadata fixed[16]:METADATA_PRODUCT_VERSION=0001
+2021-10-04 17:26:42,670 - [DEBUG] : metadata fixed[17]:METADATA_PLATFORM=Landsat
+2021-10-04 17:26:42,679 - [DEBUG] : metadata fixed[18]:METADATA_STATUS=ARCHIVED
+2021-10-04 17:26:42,685 - [DEBUG] : metadata fixed[19]:METADATA_ACQUISITION_TYPE=NOMINAL
+2021-10-04 17:26:42,686 - [DEBUG] : metadata fixed[20]:METADATA_SENSOR_TYPE=OPTICAL
+2021-10-04 17:26:42,687 - [DEBUG] : metadata fixed[21]:METADATA_INSTRUMENT=OAT
+2021-10-04 17:26:42,688 - [DEBUG] : metadata fixed[22]:METADATA_CODESPACE_REFERENCE_SYSTEM=urn:esa:eop:crs
+2021-10-04 17:26:42,689 - [DEBUG] : metadata fixed[23]:METADATA_REFERENCE_SYSTEM_IDENTIFIER=EPSG:4326
+2021-10-04 17:26:42,689 - [DEBUG] : metadata fixed[24]:METADATA_CODESPACE_ACQUISITION_STATION=urn:esa:eop:facility
+2021-10-04 17:26:42,690 - [DEBUG] : metadata fixed[25]:METADATA_CODESPACE_WRS_LONGITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:path
+2021-10-04 17:26:42,690 - [DEBUG] : metadata fixed[26]:METADATA_CODESPACE_WRS_LATITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:row
+2021-10-04 17:26:42,691 - [DEBUG] : metadata fixed[27]:METADATA_CODESPACE_SENSOR_OPERATIONAL_MODE=urn:esa:eop:Landsat:OAT:operationalMode
+2021-10-04 17:26:42,691 - [DEBUG] : metadata fixed[28]:METADATA_PRODUCT_SIZE_UOM=bytes
+2021-10-04 17:26:42,691 - [DEBUG] : metadata fixed[29]:METADATA_KMZ_USE_BOOUNDINGBOX=False
+2021-10-04 17:26:42,692 - [DEBUG] : metadata fixed[30]:METADATA_QUALITY_STATUS=NOMINAL
+2021-10-04 17:26:42,693 - [INFO] :  ==> don't run in multiprocessing mode
+2021-10-04 17:26:42,693 - [INFO] :   => use one single product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:26:42,697 - [INFO] : 
+
+list of products to be done written in:./log/product_list_0010.txt
+
+
+2021-10-04 17:26:42,717 - [INFO] : 
+2021-10-04 17:26:42,722 - [INFO] : 
+2021-10-04 17:26:42,723 - [INFO] : 
+2021-10-04 17:26:42,724 - [INFO] : 
+2021-10-04 17:26:42,725 - [INFO] : doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:26:42,725 - [INFO] : [PROGRESS] Doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:26:42,726 - [INFO] : doing product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:26:42,767 - [ERROR] : done=0; total=1; error=1 ; endTime=not%20computed
+2021-10-04 17:26:42,768 - [ERROR] : Error:<class 'Exception'>  L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+Traceback (most recent call last):
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2041, in processProducts
+    self.doOneProduct(aProcessInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2398, in doOneProduct
+    self.createSourceProduct(pInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/ingester_landsat8.py", line 218, in createSourceProduct
+    product = product_landsat8.Product_Landsat8(processInfo.srcPath)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/product_landsat8.py", line 186, in __init__
+    raise Exception("L1 product compagnion .zip file does not exists:'%s'" % self.compagnionFilePath)
+Exception: L1 product compagnion .zip file does not exists:'/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.zip'
+
+
+2021-10-04 17:26:42,776 - [INFO] : dont delete working folder '/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0': processOk=False; self.erase_tmp_work=False
+2021-10-04 17:26:42,777 - [INFO] : max number of product to be done reached:1; STOPPING
+2021-10-04 17:28:29,870 - [INFO] :  ==> OUTSPACE overwritten by passed parameter:/home/gilles/shared/workspace/out
+2021-10-04 17:28:29,872 - [INFO] :  ==> TMPSPACE overwritten by passed parameter:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:28:29,873 - [INFO] :  ==> will NOT run in daemon mode:False
+2021-10-04 17:28:29,874 - [INFO] :  ==> will use single product
+2021-10-04 17:28:29,874 - [INFO] :  test TMPSPACE folder exists:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:28:29,876 - [INFO] :  test OUTSPACE folder exists:/home/gilles/shared/workspace/out
+2021-10-04 17:28:29,878 - [DEBUG] : metadata fixed[0]:METADATA_SIP_CHANGE_LOG=First Edition
+2021-10-04 17:28:29,879 - [DEBUG] : metadata fixed[1]:METADATA_SIP_SPEC_NAME_VERSION=EO SIP Specialization for Landsat 8 Collection 2 Products v2.0
+2021-10-04 17:28:29,881 - [DEBUG] : metadata fixed[2]:METADATA_SIP_SOFTWARE_NAME=eoProdGen
+2021-10-04 17:28:29,881 - [DEBUG] : metadata fixed[3]:METADATA_SIP_SOFTWARE_VERSION=0101
+2021-10-04 17:28:29,882 - [DEBUG] : metadata fixed[4]:METADATA_NATIVE_PRODUCT_VERSION=00
+2021-10-04 17:28:29,883 - [DEBUG] : metadata fixed[5]:METADATA_PLATFORM_2DIGITS_ALIAS=L0
+2021-10-04 17:28:29,883 - [DEBUG] : metadata fixed[6]:METADATA_FILECOUNTER=1
+2021-10-04 17:28:29,884 - [DEBUG] : metadata fixed[7]:METADATA_ORBIT=0
+2021-10-04 17:28:29,885 - [DEBUG] : metadata fixed[8]:METADATA_ORBIT_DIRECTION=DESCENDING
+2021-10-04 17:28:29,885 - [DEBUG] : metadata fixed[9]:METADATA_SENSOR_OPERATIONAL_MODE=DEFAULT
+2021-10-04 17:28:29,886 - [DEBUG] : metadata fixed[10]:METADATA_REPORT_TYPE=ARCHIVING
+2021-10-04 17:28:29,887 - [DEBUG] : metadata fixed[11]:METADATA_RESPONSIBLE=ESA
+2021-10-04 17:28:29,903 - [DEBUG] : metadata fixed[12]:METADATA_CREATOR=ESA
+2021-10-04 17:28:29,907 - [DEBUG] : metadata fixed[13]:METADATA_BROWSES_TYPE=QUICKLOOK
+2021-10-04 17:28:29,908 - [DEBUG] : metadata fixed[14]:METADATA_FILECLASS=OPER
+2021-10-04 17:28:29,909 - [DEBUG] : metadata fixed[15]:METADATA_SIP_VERSION=0101
+2021-10-04 17:28:29,910 - [DEBUG] : metadata fixed[16]:METADATA_PRODUCT_VERSION=0001
+2021-10-04 17:28:29,910 - [DEBUG] : metadata fixed[17]:METADATA_PLATFORM=Landsat
+2021-10-04 17:28:29,911 - [DEBUG] : metadata fixed[18]:METADATA_STATUS=ARCHIVED
+2021-10-04 17:28:29,912 - [DEBUG] : metadata fixed[19]:METADATA_ACQUISITION_TYPE=NOMINAL
+2021-10-04 17:28:29,914 - [DEBUG] : metadata fixed[20]:METADATA_SENSOR_TYPE=OPTICAL
+2021-10-04 17:28:29,915 - [DEBUG] : metadata fixed[21]:METADATA_INSTRUMENT=OAT
+2021-10-04 17:28:29,916 - [DEBUG] : metadata fixed[22]:METADATA_CODESPACE_REFERENCE_SYSTEM=urn:esa:eop:crs
+2021-10-04 17:28:29,916 - [DEBUG] : metadata fixed[23]:METADATA_REFERENCE_SYSTEM_IDENTIFIER=EPSG:4326
+2021-10-04 17:28:29,917 - [DEBUG] : metadata fixed[24]:METADATA_CODESPACE_ACQUISITION_STATION=urn:esa:eop:facility
+2021-10-04 17:28:29,919 - [DEBUG] : metadata fixed[25]:METADATA_CODESPACE_WRS_LONGITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:path
+2021-10-04 17:28:29,919 - [DEBUG] : metadata fixed[26]:METADATA_CODESPACE_WRS_LATITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:row
+2021-10-04 17:28:29,920 - [DEBUG] : metadata fixed[27]:METADATA_CODESPACE_SENSOR_OPERATIONAL_MODE=urn:esa:eop:Landsat:OAT:operationalMode
+2021-10-04 17:28:29,921 - [DEBUG] : metadata fixed[28]:METADATA_PRODUCT_SIZE_UOM=bytes
+2021-10-04 17:28:29,922 - [DEBUG] : metadata fixed[29]:METADATA_KMZ_USE_BOOUNDINGBOX=False
+2021-10-04 17:28:29,923 - [DEBUG] : metadata fixed[30]:METADATA_QUALITY_STATUS=NOMINAL
+2021-10-04 17:28:29,924 - [INFO] :  ==> don't run in multiprocessing mode
+2021-10-04 17:28:29,925 - [INFO] :   => use one single product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:28:29,928 - [INFO] : 
+
+list of products to be done written in:./log/product_list_0010.txt
+
+
+2021-10-04 17:28:29,929 - [INFO] : 
+2021-10-04 17:28:29,930 - [INFO] : 
+2021-10-04 17:28:29,930 - [INFO] : 
+2021-10-04 17:28:29,931 - [INFO] : 
+2021-10-04 17:28:29,931 - [INFO] : doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:28:29,931 - [INFO] : [PROGRESS] Doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:28:29,932 - [INFO] : doing product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:28:29,935 - [INFO] :  prepare product
+2021-10-04 17:28:29,987 - [INFO] :   extracted inside:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0
+2021-10-04 17:28:29,997 - [INFO] :  Eo-Sip product created
+2021-10-04 17:28:29,998 - [INFO] :  dest product metadata is NONE!
+2021-10-04 17:28:30,000 - [INFO] :  dest product metadata set
+2021-10-04 17:28:30,000 - [INFO] :   will build Eo-Sip package name
+2021-10-04 17:28:30,001 - [INFO] :  namesInfo:
+Sip product name (no ext):L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101
+Sip package name (with ext):L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP
+Eo product name (no ext):LC08_L1GT_193024_20210629_20210629_02_RT
+Eo package name (with ext):LC08_L1GT_193024_20210629_20210629_02_RT.ZIP
+
+2021-10-04 17:28:30,023 - [INFO] :   tmpEosipFolder info:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101
+2021-10-04 17:28:30,373 - [INFO] :   will build SIP file
+2021-10-04 17:28:30,477 - [INFO] :   Sip report file built well:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101/LC08_L1GT_193024_20210629_20210629_02_RT.SI.XML
+2021-10-04 17:28:30,477 - [INFO] :   will build product report
+2021-10-04 17:28:30,776 - [ERROR] : done=0; total=1; error=1 ; endTime=not%20computed
+2021-10-04 17:28:30,778 - [ERROR] : Error:<class 'Exception'>  Xml Validation failure; <class 'urllib.error.URLError'> <urlopen error [Errno 111] Connection refused>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/urllib/request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.8/http/client.py", line 1252, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1298, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1007, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 947, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 918, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/product_EOSIP.py", line 1221, in buildProductReportFile
+    validator.useXmlValidateService(self.processInfo, PRODUCT_SCHEMA_TYPE, self.reportFullPath)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/serviceClients/xmlValidateServiceClient.py", line 99, in useXmlValidateService
+    res=self.service.processRequest(url, data)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/services/httpService.py", line 95, in processRequest
+    return self.retrieveUsingPost(url, data, None, decode)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/services/httpService.py", line 185, in retrieveUsingPost
+    f = self.opener.open(self.request, timeout = self.timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1383, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.8/urllib/request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2041, in processProducts
+    self.doOneProduct(aProcessInfo)
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/base/ingester.py", line 2557, in doOneProduct
+    tmp=pInfo.destProduct.buildProductReportFile()
+  File "/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/product_EOSIP.py", line 1227, in buildProductReportFile
+    raise Exception("Xml Validation failure; %s %s" % (exc_type, exc_obj))
+Exception: Xml Validation failure; <class 'urllib.error.URLError'> <urlopen error [Errno 111] Connection refused>
+
+
+2021-10-04 17:28:30,788 - [INFO] : dont delete working folder '/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0': processOk=False; self.erase_tmp_work=False
+2021-10-04 17:28:30,790 - [INFO] : max number of product to be done reached:1; STOPPING
+2021-10-04 17:29:18,895 - [INFO] :  ==> OUTSPACE overwritten by passed parameter:/home/gilles/shared/workspace/out
+2021-10-04 17:29:18,895 - [INFO] :  ==> TMPSPACE overwritten by passed parameter:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:29:18,896 - [INFO] :  ==> will NOT run in daemon mode:False
+2021-10-04 17:29:18,897 - [INFO] :  ==> will use single product
+2021-10-04 17:29:18,897 - [INFO] :  test TMPSPACE folder exists:/home/gilles/shared/workspace/live/processFolder/0
+2021-10-04 17:29:18,900 - [INFO] :  test OUTSPACE folder exists:/home/gilles/shared/workspace/out
+2021-10-04 17:29:18,902 - [DEBUG] : metadata fixed[0]:METADATA_SIP_CHANGE_LOG=First Edition
+2021-10-04 17:29:18,903 - [DEBUG] : metadata fixed[1]:METADATA_SIP_SPEC_NAME_VERSION=EO SIP Specialization for Landsat 8 Collection 2 Products v2.0
+2021-10-04 17:29:18,903 - [DEBUG] : metadata fixed[2]:METADATA_SIP_SOFTWARE_NAME=eoProdGen
+2021-10-04 17:29:18,904 - [DEBUG] : metadata fixed[3]:METADATA_SIP_SOFTWARE_VERSION=0101
+2021-10-04 17:29:18,904 - [DEBUG] : metadata fixed[4]:METADATA_NATIVE_PRODUCT_VERSION=00
+2021-10-04 17:29:18,929 - [DEBUG] : metadata fixed[5]:METADATA_PLATFORM_2DIGITS_ALIAS=L0
+2021-10-04 17:29:18,930 - [DEBUG] : metadata fixed[6]:METADATA_FILECOUNTER=1
+2021-10-04 17:29:18,930 - [DEBUG] : metadata fixed[7]:METADATA_ORBIT=0
+2021-10-04 17:29:18,931 - [DEBUG] : metadata fixed[8]:METADATA_ORBIT_DIRECTION=DESCENDING
+2021-10-04 17:29:18,932 - [DEBUG] : metadata fixed[9]:METADATA_SENSOR_OPERATIONAL_MODE=DEFAULT
+2021-10-04 17:29:18,934 - [DEBUG] : metadata fixed[10]:METADATA_REPORT_TYPE=ARCHIVING
+2021-10-04 17:29:18,935 - [DEBUG] : metadata fixed[11]:METADATA_RESPONSIBLE=ESA
+2021-10-04 17:29:18,936 - [DEBUG] : metadata fixed[12]:METADATA_CREATOR=ESA
+2021-10-04 17:29:18,937 - [DEBUG] : metadata fixed[13]:METADATA_BROWSES_TYPE=QUICKLOOK
+2021-10-04 17:29:18,938 - [DEBUG] : metadata fixed[14]:METADATA_FILECLASS=OPER
+2021-10-04 17:29:18,939 - [DEBUG] : metadata fixed[15]:METADATA_SIP_VERSION=0101
+2021-10-04 17:29:18,939 - [DEBUG] : metadata fixed[16]:METADATA_PRODUCT_VERSION=0001
+2021-10-04 17:29:18,940 - [DEBUG] : metadata fixed[17]:METADATA_PLATFORM=Landsat
+2021-10-04 17:29:18,941 - [DEBUG] : metadata fixed[18]:METADATA_STATUS=ARCHIVED
+2021-10-04 17:29:18,942 - [DEBUG] : metadata fixed[19]:METADATA_ACQUISITION_TYPE=NOMINAL
+2021-10-04 17:29:18,942 - [DEBUG] : metadata fixed[20]:METADATA_SENSOR_TYPE=OPTICAL
+2021-10-04 17:29:18,943 - [DEBUG] : metadata fixed[21]:METADATA_INSTRUMENT=OAT
+2021-10-04 17:29:18,944 - [DEBUG] : metadata fixed[22]:METADATA_CODESPACE_REFERENCE_SYSTEM=urn:esa:eop:crs
+2021-10-04 17:29:18,945 - [DEBUG] : metadata fixed[23]:METADATA_REFERENCE_SYSTEM_IDENTIFIER=EPSG:4326
+2021-10-04 17:29:18,946 - [DEBUG] : metadata fixed[24]:METADATA_CODESPACE_ACQUISITION_STATION=urn:esa:eop:facility
+2021-10-04 17:29:18,946 - [DEBUG] : metadata fixed[25]:METADATA_CODESPACE_WRS_LONGITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:path
+2021-10-04 17:29:18,947 - [DEBUG] : metadata fixed[26]:METADATA_CODESPACE_WRS_LATITUDE_GRID_NORMALISED=urn:esa:eop:Landsat:row
+2021-10-04 17:29:18,948 - [DEBUG] : metadata fixed[27]:METADATA_CODESPACE_SENSOR_OPERATIONAL_MODE=urn:esa:eop:Landsat:OAT:operationalMode
+2021-10-04 17:29:18,955 - [DEBUG] : metadata fixed[28]:METADATA_PRODUCT_SIZE_UOM=bytes
+2021-10-04 17:29:18,974 - [DEBUG] : metadata fixed[29]:METADATA_KMZ_USE_BOOUNDINGBOX=False
+2021-10-04 17:29:18,976 - [DEBUG] : metadata fixed[30]:METADATA_QUALITY_STATUS=NOMINAL
+2021-10-04 17:29:18,977 - [INFO] :  ==> don't run in multiprocessing mode
+2021-10-04 17:29:18,978 - [INFO] :   => use one single product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:29:18,982 - [INFO] : 
+
+list of products to be done written in:./log/product_list_0010.txt
+
+
+2021-10-04 17:29:18,983 - [INFO] : 
+2021-10-04 17:29:18,984 - [INFO] : 
+2021-10-04 17:29:18,985 - [INFO] : 
+2021-10-04 17:29:18,985 - [INFO] : 
+2021-10-04 17:29:18,986 - [INFO] : doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:29:18,986 - [INFO] : [PROGRESS] Doing product[1/1][0/0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:29:18,987 - [INFO] : doing product:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:29:18,991 - [INFO] :  prepare product
+2021-10-04 17:29:19,028 - [INFO] :   extracted inside:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0
+2021-10-04 17:29:19,040 - [INFO] :  Eo-Sip product created
+2021-10-04 17:29:19,047 - [INFO] :  dest product metadata is NONE!
+2021-10-04 17:29:19,056 - [INFO] :  dest product metadata set
+2021-10-04 17:29:19,059 - [INFO] :   will build Eo-Sip package name
+2021-10-04 17:29:19,060 - [INFO] :  namesInfo:
+Sip product name (no ext):L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101
+Sip package name (with ext):L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP
+Eo product name (no ext):LC08_L1GT_193024_20210629_20210629_02_RT
+Eo package name (with ext):LC08_L1GT_193024_20210629_20210629_02_RT.ZIP
+
+2021-10-04 17:29:19,061 - [INFO] :   tmpEosipFolder info:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101
+2021-10-04 17:29:19,143 - [INFO] :   will build SIP file
+2021-10-04 17:29:19,179 - [INFO] :   Sip report file built well:/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101/LC08_L1GT_193024_20210629_20210629_02_RT.SI.XML
+2021-10-04 17:29:19,179 - [INFO] :   will build product report
+2021-10-04 17:29:39,005 - [INFO] :   Product report file built well: /home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101/LC08_L1GT_193024_20210629_20210629_02_RT.MD.XML
+2021-10-04 17:29:39,015 - [INFO] :   output_eoSip: basePath=/home/gilles/shared/workspace/out
+2021-10-04 17:29:39,015 - [INFO] :   Eo-Sip product writen in folder:/home/gilles/shared/workspace/out/
+
+2021-10-04 17:29:39,127 - [INFO] : [PROGRESS]   write done:/home/gilles/shared/workspace/out/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP
+2021-10-04 17:29:39,127 - [INFO] :   done
+2021-10-04 17:29:39,128 - [INFO] : KMZ creation disabled !
+2021-10-04 17:29:39,129 - [INFO] : product done:/home/gilles/shared/workspace/out/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP
+2021-10-04 17:29:39,130 - [INFO] : 
+
+##
+    item done in 20.14115810394287 secs; batch run will be completed at:2021-10-04 17:29:39
+##
+
+2021-10-04 17:29:39,152 - [INFO] :   will make sysImgs folder:./log/sysImgs
+2021-10-04 17:29:39,170 - [INFO] : create src sysItem for item at path:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+2021-10-04 17:29:39,173 - [INFO] : create dest sysItem for item at paths:/home/gilles/shared/workspace/out/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP
+2021-10-04 17:29:39,207 - [INFO] : all=1; done=1; total=1; error=0; endTime=2021-10-04%2017%3A29%3A39
+2021-10-04 17:29:39,221 - [INFO] : dont delete working folder '/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0': processOk=True; self.erase_tmp_work=False
+2021-10-04 17:29:39,222 - [INFO] : max number of product to be done reached:1; STOPPING

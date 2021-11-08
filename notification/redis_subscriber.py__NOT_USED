@@ -1,0 +1,230 @@
+#
+# client that can listen from redis
+# listener has a callback methos that is called with message data (dictionnary)
+#
+# Lavaux Gilles 11/2017
+#
+import redis
+import threading
+import os,sys,traceback,time
+import uuid
+import myLoggerConfig
+
+#
+debug=False
+
+#
+#
+#
+class RedisListener(threading.Thread):
+    redis=None
+    pubsub=None
+    name=None
+    callback=None
+    default_killCommand='KILL_SUBCRIBER'
+    killCommand = default_killCommand
+    channels=None # is a list
+    anUUID = None
+
+    def __init__(self, h:str='localhost', p:int=6379):
+        threading.Thread.__init__(self)
+        self.defaultChannel=self.__class__.__name__
+        self.host=h
+        self.port=p
+        self.redis = redis.Redis(self.host, self.port)
+        self.logger.info(f"__init__ at address: {self.host}:{self.port}")
+        
+        self.setKillCommand(self.anUUID)
+        self.redis = r
+        self.pubsub = self.redis.pubsub()
+        print("dir pubsub:%s" % dir(self.pubsub))
+        self.pubsub.subscribe(self.channels)
+        self.name = "RedisListener__%s" % self.channels
+
+    def doItem(self, item):
+        if debug:
+            print(" RedisListener (pid=%s): do message item:%s=%s" % (os.getpid(), item['channel'], item))
+        if self.callback is not None:
+            self.callback(item)
+
+    def setCallback(self, c):
+        self.callback = c
+
+    def setName(self, n):
+        self.name = n
+
+    def setKillCommand(self, s):
+        self.killCommand = "%s_%s" % (self.default_killCommand, s)
+
+    def stop(self):
+        if debug:
+            print(' RedisListener (pid=%s): ' % os.getpid(), self, "publish killcommand:'%s'" % self.killCommand)
+        for aChannel in self.channels:
+            if debug:
+                print(' RedisListener (pid=%s): ' % os.getpid(), self, "publish killcommand:'%s' on channel:%s; done" % (self.killCommand, aChannel))
+            self.redis.publish(aChannel, self.killCommand)
+        #self.redis.publish(self.channels, self.killCommand)
+        #print(' RedisListener (pid=%s): ' % os.getpid(), self, "publish killcommand:'%s' done" % self.killCommand)
+        #self.pubsub.unsubscribe()
+        #time.sleep(1)
+        #self.pubsub=None
+
+    def run(self):
+        if debug:
+            print(" will run")
+        try:
+            for item in self.pubsub.listen():
+                if debug:
+                    print("  run once")
+                if item['type']=='subscribe':
+                    if debug:
+                        print(' RedisListener (pid=%s): ' % os.getpid(), self, " item is a subscripsion")
+                elif item['type']=='message':
+                    if debug:
+                        print(' RedisListener (pid=%s): ' % os.getpid(), self, " item is a message:'%s'" % item['data'])
+                    if item['data'].startswith(self.default_killCommand):
+                        if item['data'] == self.killCommand:
+                            if debug:
+                                print(' RedisListener (pid=%s): ' % os.getpid(), self, "receive my killcommand")
+                            self.pubsub.unsubscribe()
+                            if debug:
+                                print(' RedisListener (pid=%s): ' % os.getpid(), self, "unsubscribed and finished")
+                            break
+                        else:
+                            if debug:
+                                print(' RedisListener (pid=%s): ' % os.getpid(), self, "receive a killcommand")
+                    else:
+                        self.doItem(item)
+                else:
+                    if debug:
+                        print(' RedisListener (pid=%s): ' % os.getpid(), self, " item is of unused type:'%s'" % item['type'])
+            if debug:
+                print(' RedisListener (pid=%s): ' % os.getpid(), self, " out of subscripsion loop")
+        except:
+            exc_type, exc_obj, exc_tb = sys.exc_info()
+            print(" !! RedisListener (pid=%s) Error: %s %s" % (os.getpid(), exc_type, exc_obj))
+            traceback.print_exc(file=sys.stdout)
+        self.pubsub.close()
+        if debug:
+            print(' RedisListener (pid=%s): ' % os.getpid(), self, " run end")
+
+
+    def close(self):
+        print(' RedisListener (pid=%s): ' % os.getpid(), self, " close")
+        self.pubsub.close()
+        #self.redis.shutdown()
+
+#
+#
+#
+class RedisPublisherClient():
+    redis=None
+    name = None
+
+    def __init__(self, host='localhost', port=6379):
+        print("  init RedisPublisherClient (pid=%s) at address: %s:%s" % (os.getpid(), host, port))
+        self.redis = redis.Redis(host, port)
+        print("  init RedisPublisherClient (pid=%s) done: r=%s" % (os.getpid(), self.redis))
+
+    def setName(self, n):
+        self.name = n
+
+
+    def publish(self, channels, data):
+        if debug:
+            print("  RedisPublisherClient (pid=%s) publish on channels:%s; data:%s" % (os.getpid(), channels, data))
+        self.redis.publish(channels, data)
+
+    def close(self):
+        print(' RedisPublisherClient.close (pid=%s): ' % os.getpid(), self, " close")
+        #self.redis.shutdown()
+
+
+
+#
+# create a redis client
+# allow to get listener
+#
+class RedisListenerClient():
+    redis = None
+    name = None
+    #
+    #
+    #
+    def __init__(self, host='localhost', port=6379):
+        print("  init RedisListenerClient (pid=%s) at address: %s:%s" % (os.getpid(), host, port))
+        self.redis = redis.Redis(host, port)
+        if debug:
+            print("dir redis:%s" % dir(self.redis))
+        print("  init RedisListenerClient (pid=%s) done: r=%s" % (os.getpid(), self.redis))
+
+    def setName(self, n):
+        self.name = n
+
+    #
+    # get listener on channel(s)
+    #
+    def getListener(self, channels):
+        client = RedisListener(self.redis, channels)
+        if debug:
+            print("  RedisListenerClient.getListener  (pid=%s) done: client=%s" % (os.getpid(), client))
+        return client
+
+    def close(self):
+        print(' RedisListenerClient.close (pid=%s): ' % os.getpid(), self, " close")
+        #self.redis.shutdown()
+
+
+
+def aCallBack(object):
+    print(" aCallBack called with:%s" % object)
+
+#
+#
+#
+if __name__ == "__main__":
+    print('starting...')
+    r=None
+    clientS=None
+    aListener=None
+
+    if 1==2:
+        r = redis.Redis()
+        client = RedisListener(r, [BROADCAST_COMMAND_CHANNEL])
+        client.start()
+        print('started')
+    else:
+        clientS = RedisListenerClient()
+        print("dir clientS:%s" % dir(clientS))
+        aListener = clientS.getListener([BROADCAST_COMMAND_CHANNEL])
+        aListener.setCallback(aCallBack)
+        aListener.start()
+
+
+    # publish test 1
+    if 1==2:
+        r.publish(BROADCAST_COMMAND_CHANNEL, 'sent using redis')
+        print("\nTEST 1 DONE\n")
+
+    if 1==2:
+        # publish test 2 using RedisListenerClient
+        clientS = RedisListenerClient()
+        aListener = clientS.getListener([BROADCAST_COMMAND_CHANNEL])
+        aListener.setCallback(aCallBack)
+        aListener.start()
+        r.publish(BROADCAST_COMMAND_CHANNEL, 'sent using redis 2')
+
+        print("\nTEST 2 DONE\n")
+
+    if 1==1:
+        # publish using RedisPublisherClient
+        clientP = RedisPublisherClient()
+        clientP.publish(BROADCAST_COMMAND_CHANNEL, 'sent using RedisPublisherClient')
+        print("\nTEST 3 DONE\n")
+
+
+    time.sleep(3)
+    aListener.stop()
+
+    time.sleep(3)
+    clientS.close()

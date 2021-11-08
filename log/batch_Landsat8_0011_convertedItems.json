@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"BatchId": "0011", "ItemId": 0}, "geometry": {"type": "Polygon", "coordinates": [[[10.98804, 52.74], [11.17735, 50.54672], [14.59015, 50.60877], [14.56979, 52.80711], [10.98804, 52.74]]]}}]}

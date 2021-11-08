@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h3>Reporting</h3>
+    <br>
+    {{info}}
+    <hr>
+<a href="">[Today]</a><br>
+<a href="?delta=-1">[day -1]</a>&nbsp;&nbsp;<a href="?delta=-2">[day -2]</a>&nbsp;&nbsp;<a href="?delta=-3">[day -3]</a>&nbsp;&nbsp;&nbsp;&nbsp<a href="?delta=-4">[day -4]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="?delta=-5">[day -5]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="?delta=-6">[day -6]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="?delta=-7">[day -7]</a><br>
+<a href="?delta=-8">[day -8]</a>&nbsp;&nbsp;<a href="?delta=-9">[day -9]</a>&nbsp;&nbsp;<a href="?delta=-10">[day -10]</a>&nbsp;&nbsp;<a href="?delta=-11">[day -11]</a>&nbsp;&nbsp;<a href="?delta=-12">[day -12]</a>&nbsp;&nbsp;<a href="?delta=-13">[day -13]</a>&nbsp;&nbsp;<a href="?delta=-14">[day -14]</a>
+
+
+    <hr>
+    <br><br>
+    <pre>{{body}}</pre>
+
+{% endblock %}

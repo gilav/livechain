@@ -1,0 +1,12 @@
+
+# on TPM-IF:
+Running command: /nfsdata/runtime/anaconda/bin/python /nfsdata/nfsdata02/CONVERTERS/orchestrator/luigi_eosip_dev/eoSipConverterWrapper.py eoSip_converter.ingester_landsat8 /home/converter/configurations/converters/landsat8/ingest_landsat8.cfg /nfsdata/nfsdata02/runtime/orchestrator_workspace/20210927T205309__b88663e1-6511-443b-a79e-5d7bc6635192/outputFolder/0.json 1632811523.86 -i 0 -t /nfsdata/nfsdata02/runtime/orchestrator_workspace/20210927T205309__b88663e1-6511-443b-a79e-5d7bc6635192/processFolder/0 -s /nfsdata/nfsdata01/TDS/LANDSAT8/SRC/L2/DATASET_COLL2_L2/LC08_L2SP_184030_20210310_20210317_02_T2/LC08_L2SP_184030_20210310_20210317_02_T2.tar --orchestrator /nfsdata/nfsdata02/CONVERTERS/orchestrator/luigi_eosip_dev/scenario_reporting_eoSip_conversion_flex.py -o /nfsdata/nfsdata01/TDS/LANDSAT8/TEST_EoSips
+
+# local:
+python3 eoSipConverterWrapper.py ingester_landsat8 /home/gilles/shared/converters/live_chain/wrapper/ingest_landsat8.cfg /home/gilles/shared/workspace/live/0.json 1632811523.86 -i 0 -t /home/gilles/shared/workspace/live/processFolder/0 -o /home/gilles/shared/workspace/out -s /home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+
+
+
+## OK:
+
+python3 eoSipConverterWrapper.py ingester_landsat8 /home/gilles/shared/converters/live_chain/wrapper/ingest_landsat8.cfg /home/gilles/shared/workspace/live/0.json 1632811523.86 -i 0 -t /home/gilles/shared/workspace/live/processFolder/0 -o /home/gilles/shared/workspace/out -s /home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar

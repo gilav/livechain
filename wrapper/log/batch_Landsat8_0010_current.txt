@@ -1,0 +1,1 @@
+/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar

@@ -1,0 +1,29 @@
+
+Summary:
+ Ingester version: Landsat8 converter V:1.0.0
+ CONFIGURATION: Landsat8
+ CONFIG VERSION: Landsat8_1.0
+ EoSip definition package path in use:['/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/definitions_EoSip/v101/xml_nodes', '/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/definitions_EoSip/v101', '/home/gilles/shared/converters/docker_converters/generic/eoSip_converter/esaProducts/definitions_EoSip/v101']
+
+ batch name:batch_Landsat8_0010
+ Started at: 2021-10-04T17:29:18Z
+ Stoped at: 2021-10-04T17:29:39Z
+ Duration: 20.24061870574951 sec
+
+ INBOX:TBD
+ TMPSPACE:/home/gilles/shared/workspace/live/processFolder/0
+ OUTSPACE:/home/gilles/shared/workspace/out
+
+ Total of products to be processed:1
+  Number of products done:1
+  Number of errors:0
+
+ done[0]:/home/gilles/shared/missions/landsat8/NEW_L8_INPUT_TDS/L1/L1GT_RT/LC08_L1GT_193024_20210629_20210629_02_RT.tar|/home/gilles/shared/workspace/live/processFolder/0/batch_Landsat8_0010_workfolder_0
+
+
+ eosip[0]:/home/gilles/shared/workspace/out/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP
+
+
+  Number of product done:1
+  Number of errors:0
+ Duration: 20.24061870574951 sec

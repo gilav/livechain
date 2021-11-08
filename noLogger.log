@@ -1,0 +1,32 @@
+
+ sys.argv:
+ sys.argv[0]:wrapper/eoSipConverterWrapper.py
+ sys.argv[1]:ingester_landsat8
+ sys.argv[2]:/home/gilles/shared/converters/live_chain/wrapper/ingest_landsat8.cfg
+ sys.argv[3]:/home/gilles/shared/converter/live_chain_REFS/doneFlagFile.json
+ sys.argv[4]:0
+ sys.argv[5]:-i
+ sys.argv[6]:1
+ sys.argv[7]:-o
+ sys.argv[8]:/home/gilles/shared/converters/live_chain_REFS/out
+ sys.argv[9]:-t
+ sys.argv[10]:/home/gilles/shared/converters/live_chain_REFS/tmp
+ sys.argv[11]:-s
+ sys.argv[12]:/home/gilles/shared/converters/live_chain_REFS/ref_input/LC08_L1GT_193024_20210629_20210629_02_RT.tar
+ sys.argv[13]:--noLogger
+ sys.argv[14]:True
+EoSipConverterWrapper converter:ingester_landsat8
+
+will start converter:ingester_landsat8 using configuration:/home/gilles/shared/converters/live_chain/wrapper/ingest_landsat8.cfg; doneFlagFile:/home/gilles/shared/converter/live_chain_REFS/doneFlagFile.json; startTime:0
+   and anyParam:['-i', '1', '-o', '/home/gilles/shared/converters/live_chain_REFS/out', '-t', '/home/gilles/shared/converters/live_chain_REFS/tmp', '-s', '/home/gilles/shared/converters/live_chain_REFS/ref_input/LC08_L1GT_193024_20210629_20210629_02_RT.tar', '--noLogger', 'True']
+wrapper use configuration: /home/gilles/shared/converters/live_chain/wrapper/wrappers.cfg
+ DISK USAGE: free disk 88419205120 ->83.15890039447731 VS 2
+ processRequest, timeout=180
+ will do POST: url=http://localhost:27000/validate; params=None;
+ post serviceRequest:http://localhost:27000/validate
+ don't use proxy
+ zipfile is the python one
+ #### Product LC08_L1GT_193024_20210629_20210629_02_RT.tar is already present in productGeoInfoMap
+ dont delete working folder '/home/gilles/shared/converters/live_chain_REFS/tmp/batch_Landsat8_0011_workfolder_0': processOk=True; self.erase_tmp_work=False
+ ### filledDict:{'orchestrator': 'by operator', 'id': 'doneFlagFile', 'at': 1634473210.1811826, 'time': 1634473210.1811826, 'ctime': 'Sun 2021/10/17 14:20:02', 'processingTime': 0.4090571403503418, 'exitCode': 0, 'state': 'SUCCESS', 'source': '/home/gilles/shared/converters/live_chain_REFS/ref_input/LC08_L1GT_193024_20210629_20210629_02_RT.tar', 'sourceSize': 32256, 'sourceMd5': '486374b3893d1a9c4bb442cc75477fff', 'eosip': '/home/gilles/shared/converters/live_chain_REFS/out/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP', 'eosipSize': 4541796, 'eosipMd5': '88d95aa81255fa4e133c056921065c4a'}
+  doneFileFlag json file created: /home/gilles/shared/converter/live_chain_REFS/doneFlagFile.json

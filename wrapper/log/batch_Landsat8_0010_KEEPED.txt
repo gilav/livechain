@@ -1,0 +1,7 @@
+infoKeeper dump:
+  info:'METADATA_INSTRUMENT'
+    value[0]:'OAT'
+  info:'METADATA_PROCESSING_LEVEL'
+    value[0]:'L1GT'
+  info:'duration__LC08_L1GT_193024_20210629_20210629_02_RT.tar'
+    value[0]:'20.14115810394287'

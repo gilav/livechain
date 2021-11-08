@@ -1,0 +1,1 @@
+/home/gilles/shared/converters/live_chain_REFS/ref_input/LC08_L1GT_193024_20210629_20210629_02_RT.tar|/home/gilles/shared/converters/live_chain_REFS/tmp/batch_Landsat8_0011_workfolder_0

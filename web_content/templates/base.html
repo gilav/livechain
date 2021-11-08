@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Live Chain Tool</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <div id="banner">
+        <div id="divImageHeader" class="col-sm-1"><a href="/"><img id="imageHeader" src="static/a.svg" width="70px" height="70px"></a></div>
+        <br><h3>Live Chain Tool UI (proof of concept)</h3>
+        <small>UI v: 0.0.1</small>
+        <div id="divLoginInfo" class="col-sm-2">
+            <ul class="login-nav">
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+            {% block sidebar %}
+            <ul class="sidebar-nav">
+                <a href = "status">Status</a>
+            </ul>
+            <ul class="sidebar-nav">
+                <a href = "input">Inputs</a>
+            </ul>
+            <ul class="sidebar-nav">
+                <a href = "output">Outputs</a>
+            </ul>
+            <ul class="sidebar-nav">
+                <a href = "reporting">Reporting</a>
+            </ul>
+            <ul class="sidebar-nav">
+                <a href = "config">Configuration</a>
+            </ul>
+            <ul class="sidebar-nav">
+                <a href = "test">Test</a>
+            </ul>
+            {% endblock %}
+        </div>
+
+        <div class="col-sm-10 ">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

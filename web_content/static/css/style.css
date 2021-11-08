@@ -1,0 +1,420 @@
+html,
+body
+{
+ font-family: helvetica new,sans-serif,arial;
+ font-size: 14px;
+ margin: 5px 5px 5px 5px;
+ padding:0;
+ text-align:left;
+ height:100%;
+ background:#ffff;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+hr {
+    background-color: orange; height: 1px; border: 0;
+    width: 50%;
+}
+
+li a {
+    color: green;
+}
+
+
+
+table, td, th
+{
+ text-align:left;
+ border-collapse:collapse;
+ border-style:solid;
+ border-width:1px;
+ padding:4px;
+}
+tr
+{
+line-height:1.1em;
+}
+th
+{
+ background:#d1ebff;
+}
+
+
+
+.borderLessTable
+{
+ font-family: helvetica new,sans-serif,arial;
+ font-size: 12px;
+ margin:  5px 10px 5px 10px;
+ padding: 0;
+ border-width: 0px;
+}
+.borderLessTable tr
+{
+line-height:0.9em;
+}
+.borderLessTable td
+{
+border-width: 0px;
+line-height:0.9em;
+min-width: 70px;
+border-width: 0px;
+}
+
+
+
+.smallTable
+{
+ font-family: helvetica new,sans-serif,arial;
+ font-size: 12px;
+ margin:  5px 10px 5px 10px;
+ padding: 0;
+}
+.smallTable tr
+{
+line-height:1.0em;
+}
+.smallTable td
+{
+line-height:1.0em;
+min-width: 70px;
+}
+td.tdh15
+{
+line-height:1.5em;
+}
+
+
+tr.trw100
+{
+min-width: 100px;
+}
+tr.trw150
+{
+min-width: 150px;
+}
+tr.trw200
+{
+min-width: 200px;
+}
+tr.trw300
+{
+min-width: 300px;
+}
+tr.trw400
+{
+min-width: 400px;
+}
+
+
+td.tdw100
+{
+min-width: 100px;
+}
+td.tdw150
+{
+min-width: 150px;
+}
+td.tdw200
+{
+min-width: 200px;
+}
+td.tdw300
+{
+min-width: 300px;
+}
+td.tdw400
+{
+min-width: 400px;
+}
+
+.empty {
+    color: #666;
+    font-style: italic;
+}
+
+/*
+
+ The CHATS PART
+
+*/
+.rooms li {
+    padding: 2px 2px;
+    background: #def;
+    display: inline;
+    #width: 50%;
+    margin: 1px 2px 2px 1px;
+    border: 1px solid #bcd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.rooms li.joined {
+    background: #5898D9;
+    border: 1px solid #35485C;
+}
+
+
+
+/*
+
+channel test page
+
+*/
+.myJsonArea {
+    height: 300px;
+}
+.channelsExamples li {
+    padding: 2px 2px;
+    background: #def;
+    display: inline;
+    #width: 50%;
+    margin: 1px 2px 2px 1px;
+    border: 1px solid #bcd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+/*
+*/
+.stateTable{
+    border: 0px;
+}
+    .stateTable tr
+    {
+    border: 0px;
+    }
+    .stateTable td
+    {
+    border: 0px;
+    }
+
+
+#chats {
+}
+    #chats .room {
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin: 30px 0 0 0;
+    }
+    #chats h2 {
+        color: #333;
+        margin: 2px 0 5px 0;
+        font-weight: bold;
+    }
+    #chats .messages {
+        height: 200px;
+        overflow: auto;
+        background: #eee;
+        margin: 2px 0 5px 0;
+        width: 1010px;
+    }
+    #chats .username {
+        display: inline-block;
+        color: #C07A36;
+        width: 100px;
+        font-weight: bold;
+    }
+    #chats .contextual-message{
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+    }
+    #chats .text-muted {
+        opacity: .6;
+        font-style: italic;
+    }
+    #chats .text-danger {
+        color: #a94442;
+        font-weight: bold;
+    }
+    #chats .text-warning {
+        color: #DCAD5C;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+
+
+ /*
+
+ The SUBSCRIPTIONS PART
+
+*/
+.subs li {
+    padding: 5px 5px;
+    background: #def;
+    /*display: inline;*/
+    margin: 1px 2px 2px 1px;
+    border: 1px solid #bcd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+    .subs li.joined {
+        background: #5898D9;
+        border: 1px solid #35485C;
+    }
+
+#subInfos {
+}
+    #subInfos .sub {
+        /*border: 1px solid #ccc;*/
+        padding: 5px;
+        margin: 30px 0 0 0;
+        background: #e6e6e6;
+    }
+    #subInfos h2 {
+        color: #333;
+        margin: 2px 0 5px 0;
+        font-weight: bold;
+    }
+    #subInfos .messages {
+        height: 200px;
+        overflow: auto;
+        background: #eee;
+        margin: 5px 5px 5px 5px;
+        width: 1010px;
+    }
+    #subInfos .username {
+        display: inline-block;
+        color: #C07A36;
+        width: 100px;
+        font-weight: bold;
+    }
+    #subInfos .contextual-message{
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+    }
+    #subInfos .text-muted {
+        opacity: .6;
+        font-style: italic;
+    }
+    #subInfos .text-danger {
+        color: #a94442;
+        font-weight: bold;
+    }
+    #subInfos .text-warning {
+        color: #DCAD5C;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+
+
+.feedBackMessage
+{
+ overflow-x:auto;
+ border-width:1px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+}
+
+
+.explanation {
+ background:#ccf3f3;
+ overflow-x:auto;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ padding: 2px 12px 2px 12px;
+}
+
+
+.output
+{
+ background:#A2E0E0;
+ overflow-x:auto;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ padding: 3px 3px 3px 3px;
+}
+
+
+#banner
+{
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius:8px;
+ height:78px;
+ background:#b0d8f7;
+ width:100%;
+ padding-top:1px;
+ padding-bottom:4px;
+ border-style:solid;
+ border-width:1px 1px 1px 1px;
+ border-color:transparent transparent transparent transparent;
+}
+
+#banner h3
+{
+ font-size: 18px;
+ color:#141a99;
+ margin-left:90px;
+}
+
+
+
+#divImageHeader
+{
+ padding-top:2px;
+ float:left;
+ padding-left:4px;
+ display:block;
+}
+
+
+#imageHeader
+{
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius:8px;
+}
+
+#divLogoHeader
+{
+ padding-top:2px;
+ padding-bottom:2px;
+ padding-left:22px;
+ padding-right:22px;
+ display:block;
+ white-space: nowrap;
+}
+
+#divLoginInfo
+{
+ float:right;
+ padding-top:2px;
+ padding-bottom:2px;
+ padding-right:22px;
+ display:block;
+}
+
+.login-nav {
+    margin-top: 2px;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.divLogoHeader h1 {
+ font-size: 24px;
+}

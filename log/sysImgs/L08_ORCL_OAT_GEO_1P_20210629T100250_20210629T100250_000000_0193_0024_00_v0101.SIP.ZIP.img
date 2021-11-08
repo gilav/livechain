@@ -1,0 +1,6 @@
+#items:2
+#path:mixed
+#date:2021-10-29T15:27:45Z
+#headers:path|type|size|perm|hash|ctime
+/home/gilles/shared/converters/live_chain_REFS/ref_input/LC08_L1GT_193024_20210629_20210629_02_RT.tar|1|32256|0o777|486374b3893d1a9c4bb442cc75477fff|1634395903.9073427
+/home/gilles/shared/converters/live_chain_REFS/out/L08_ORCL_OAT_GEO_1P_20210629T100250_20210629T100250_000000_0193_0024_00_v0101.SIP.ZIP|1|4541796|0o777|59858848405583811c5531d070605fb9|1635514066.5924647
