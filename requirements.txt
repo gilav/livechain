@@ -1,0 +1,6 @@
+SQLAlchemy==1.3.23
+watchdog==2.1.5
+redis==3.5.3
+persist_queue==0.7.0
+luigi==3.0.3
+persistqueue==0.1.6
